@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#wrapper {
+   
+    width: 100%;
+    background-color: rgba(0, 180, 185, .5);
+    background-size: cover;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#header {
+   
+    color: #fff;
+    background-color: rgba(54, 106, 52);
+   height: 95px;
+
+
+}
+
+#header h1 {
+    float: left;
+    font-size: 35px;
+    padding: 20px;
+    width: 40%;
+    color: #fff;
+    font-family: 'Molle', cursive;
+    text-shadow: 2px 2px 5px red,2px 2px 5px green,2px 2px 5px blue;
+
+}
+
+#header .header-right {
+
+    float: right;
+    margin: 30px;
+    width: 50%;
+
+}
+
+#header .header-right ul {
+    list-style-type: none;
+
+}
+
+#header .header-right ul li {
+    float: left;
+    font-size: 18px;
+    margin-right: 2%;
+    color: aqua;
+}
+
+#header .header-right ul li:nth-child(3) {
+    margin-right: 1%;
+}
+
+
+#header .header-right ul li:nth-child(5) {
+    margin-top: -5px;
+    margin-right: 0;
+}
+
+#header .header-right ul li i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #0cec8f;
+}
+
+#header .header-right ul li input[type="search"] {
+    border-radius: 5px;
+    padding: 3px 0 3px 5px;
+    background: white;
+    border: none;
+
+
+}
+
+#header .header-right ul li input[type="search"]:focus {
+    background-color: antiquewhite;
+    border-color: #045607;
+    outline: none;
+
+
+}
+
+#header .header-right ul li input[type="submit"] {
+    width: 62px;
+    height: 25px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #045607;
+    color: #ffffff;
+}
+
+#header .header-right ul li input[type="submit"]:hover {
+    background-color: #62c667;
+    cursor: pointer;
+
+}
+
+#header .header-right ul li a {
+    width: 90px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px 5px;
+    text-decoration: none;
+    display: block;
+    background-color: #770e0e;
+    color: #fff;
+}
+#header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#nav {
+    width: 100%;
+    background-color: beige;
+    overflow: hidden;
+   
+   
+}
+#nav ul  {
+  
+    width: 50%;
+    height: 55px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+#nav ul li {
+float: left;
+}
+
+#nav ul li a {
+    display: block;
+    font-size: 16px;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8e0606;
+    font-weight: 600;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+
+}
+#nav ul li a:hover{
+    font-weight: bolder;
+    background: #11bbbb;
+
+
+}
+/* Navigation bar sticky*/
+
+.stick {
+    position:fixed;
+    top:0px;
+    z-index:999999999999;
+}
+/********************* css Slider *********************/
+
+.slider-wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+.theme-light.slider-wrapper{
+    padding: 0;
+}
+.nivoSlider img {
+  width: 1110px;
+    height: 433px;
+}
+
+/*****************Product starting****************/
+#product{
+    height: 500px;
+}
+
